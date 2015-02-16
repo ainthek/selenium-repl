@@ -28,5 +28,10 @@ repl.context.webdriver = webdriver;
 repl.context.driver = driver;
 
 repl.on("exit", function() {
-    driver.quit();
+    driver.getSession().then(function(session) {
+        if (session) {
+            driver.quit();
+        }
+    });
+
 });

@@ -5,9 +5,6 @@ var driver = new ff.Driver();
 var By = webdriver.By;
 var until = webdriver.until;
 
-
-
-
 var repl = require("repl").start({
     prompt: "SELENIUM-REPL>",
     "eval": function(cmd, context, filename, callback) {
@@ -24,6 +21,7 @@ var repl = require("repl").start({
         });
     }
 });
+
 repl.context.webdriver = webdriver;
 repl.context.driver = driver;
 

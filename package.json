@@ -9,8 +9,7 @@
     "lint": "jshint src test",
     "plato": "plato -r -d test_reports/plato -l .jshintrc src ",
     "test": "npm run mocha; npm run lint; npm run plato; npm run nsp",
-
-    "start":"node src/index.js"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +29,6 @@
   "dependencies": {
     "bluebird": "^2.7.1",
     "commander": "^2.6.0",
-    "selenium-webdriver": "^2.44.0"
+    "selenium-webdriver": "^3.0.0"
   }
 }

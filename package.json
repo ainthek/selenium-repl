@@ -30,6 +30,6 @@
   "dependencies": {
     "bluebird": "^2.7.1",
     "commander": "^2.6.0",
-    "selenium-webdriver": "^2.44.0"
+    "selenium-webdriver": "^3.0.0"
   }
 }
